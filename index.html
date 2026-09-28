@@ -16,7 +16,20 @@
         header {
             background: linear-gradient(135deg, #667eea, #764ba2);
             color: white;
-            padding: 60px 20px;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Estilos para el logo */
+        .logo {
+            max-width: 150px; /* Tamaño del logo */
+            height: auto;
+            background-color: white; /* Fondo blanco para que resalte */
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
         }
         header h1 {
             font-size: 2.5rem;
@@ -62,6 +75,9 @@
 </head>
 <body>
     <header>
+        <!-- Aquí va el logo -->
+        <img src="ofa.jpg" alt="Logo del Instituto" class="logo">
+        
         <h1>Bienvenido a mi Proyecto</h1>
         <p>Una página web creada para el instituto</p>
     </header>
